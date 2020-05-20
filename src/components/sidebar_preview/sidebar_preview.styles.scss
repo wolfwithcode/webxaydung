@@ -1,0 +1,33 @@
+.sidebar-preview-component{
+    
+    .sidebar-preview{
+        
+        .sidebar-content{
+            height: 19vw;
+            width: 17vw;
+            border-radius: 0.5vw;
+            border: 1px solid #22223b;
+            margin: 1vw 0 1vw 0.5vw;
+            // background-color: #22223b;
+            background: rgb(74,78,105);
+            background: linear-gradient(180deg, rgba(74,78,105,1) 0%, rgba(34,34,59,1) 14%, rgba(34,34,59,1) 86%, rgba(74,78,105,1) 100%);
+        
+            .sidebar-title{
+                margin: 0.5vw 0;
+                height: 1.8vw;
+                width: 100%;
+                color: #f2e9e4;
+                font-size: 1.3vw;
+                font-family: 'Anton', sans-serif;    
+            }
+        
+            .sidebar-background{
+                background-repeat: no-repeat;
+            }        
+        }
+        
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

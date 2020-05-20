@@ -1,0 +1,21 @@
+.header{
+    background-color: transparent;
+
+    .logo{
+        background-color: #22223B;
+        text-align: center;
+
+        .logo-img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .menu-bar{
+        height: 3vw;
+        background: rgb(74,78,105);
+        background: linear-gradient(180deg, rgba(74,78,105,1) 0%, rgba(34,34,59,1) 14%, rgba(34,34,59,1) 86%, rgba(74,78,105,1) 100%);
+        padding-top: 0.5vw;
+    }
+
+}

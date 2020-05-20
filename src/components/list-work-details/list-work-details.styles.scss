@@ -1,0 +1,35 @@
+.content{
+    transition: 0.5s;         
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4a4e69;  
+    padding-bottom: 0.5vw;
+
+    .icon{
+        font-size: 1vw;
+        font-weight: 600;
+    }
+
+    .link-list-work{      
+        
+        .work_details{
+            padding-left: 0.3vw;     
+            color: #22223b;
+            &:hover{
+                color: #9a8c98;
+            }
+        }
+
+        &:hover{
+            color: #9a8c98;
+            text-decoration: none;
+        }
+    }
+
+    &:hover{
+        color: #9a8c98;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+}

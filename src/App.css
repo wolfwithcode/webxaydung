@@ -1,0 +1,14 @@
+/* .body_page.no-gutter [class*='col-']:first-child:not(:only-child) {
+  padding: 0 0 0 0px;
+}
+.body_page.no-gutter [class*='col-']:last-child:not(:only-child) {
+  padding-right: 15px;
+} */
+
+.app{
+  display: inline-block;
+}
+
+.app .main-content .body-page{
+  margin-top: 5vw;
+}

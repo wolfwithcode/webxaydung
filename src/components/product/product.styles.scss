@@ -1,0 +1,49 @@
+.product-component{
+    border-radius: 1vw;
+    border: 0.5px solid #4a4e69;
+    margin-bottom: 2vw;
+    height: 12.5vw;
+    width: 100%;
+    transition: transform 2s;
+    
+    .product-link{  
+
+        .product-img{
+            text-align: center;
+            margin-top: 1vw;
+            padding: 1vw;
+            transition: transform 2s;
+            
+            .img{
+                border-radius: .5vw;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                width: 90%;
+                height: 7vw;
+                transition: transform 2s;
+    
+                &:hover{                
+                    transform: scale(1.1);
+                }
+            }            
+        }
+
+        .product-text-title{
+            margin-top: 1vw;
+            
+            .text-title{                
+                color: #22223b;
+                height: 100%;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.3vw;
+            }
+        }
+    }
+
+    &:hover, .product-link:hover{
+        text-decoration: none;
+        border-color: #22223b;
+        border-width: .2vw;
+        transform: scale(1);
+    }
+}
+
