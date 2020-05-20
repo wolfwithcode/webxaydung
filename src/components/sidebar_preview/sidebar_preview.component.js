@@ -10,7 +10,7 @@ function SidebarPreview({sidebar_title, background_img, price}) {
             <Link to={`/tk/${sidebar_title}/`} className='sidebar-preview'>
                 <div className='row sidebar-content justify-content-center'>            
                     <div className="col-12 p-0 sidebar-title text-center"> {sidebar_title} </div>
-                    <div className="col-12 p-0 sidebar-image">
+                    <div className="col-12 p-0 sidebar-image text-center">
                         <img src={background_img} alt={background_img} className='img-fluid sidebar-background' />       
                     </div>  
                 </div>

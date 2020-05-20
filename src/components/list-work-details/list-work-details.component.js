@@ -8,7 +8,7 @@ function ListWorkDetails({content, id}) {
     return (
         <div className='container-fluid'>
             <div className='row content'>
-                <i className="fab fa-buromobelexperte icon" ></i>
+                <i class="fas fa-hammer"></i>
                 <Link className='link-list-work' to={`/tk/${content}/${id}`}>
                     <div className="work_details">{content}</div>
                 </Link>
